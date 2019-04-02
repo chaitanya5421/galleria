@@ -1,27 +1,21 @@
-# Galleria
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# galleria
+   This  project is of sculpture paintings with price and description and images storing and fetching details from localstorage  using Angular.<br>
+   In this project we have four components, as listed below.<br>
+    1.additems<br>
+    2.listitems<br>
+    3.itemdetails<br>
+ ## additems<br>
+  This component has the form details form NAME, PRICE, IMAGEURL,DESCRIPTION , SELECT YOUR OPTION.<br>
+  ## listitems<br>
+  In this component we are initializing and truncating the text for description in this component.<br>
+  ## itemdetails<br>
+  in this itemdetails we get the data from localstorage and display the details of the paintings on the details projected.
+  ## services<br>
+  In service is where we are storing the data in the localstorage and injecting to the components.
+  ## directives<br>
+  in directives we get the click functions and  event functions in the item directives.
+  
+  
+  
+  
+    
